@@ -1,0 +1,24 @@
+<!ELEMENT games (distributors, videogames)>
+<!ELEMENT distributors (distributor+)>
+<!ELEMENT distributor (name, foundation_day, game_studios, foundation_place)>
+<!ATTLIST distributor
+        dis_id ID #REQUIRED
+        image_path CDATA #REQUIRED
+>
+<!ELEMENT videogames (videogame+)>
+<!ELEMENT videogame (name, genres, release_date, game_studio, metacritic_score)>
+<!ATTLIST videogame
+        distributor_reference IDREF #REQUIRED
+        PEGI (3|7|12|16|18) #REQUIRED
+        image_path CDATA #REQUIRED
+        youtube_trailer CDATA #IMPLIED
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT foundation_day (#PCDATA)>
+<!ELEMENT game_studios (#PCDATA)>
+<!ELEMENT foundation_place (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT game_studio (#PCDATA)>
+<!ELEMENT genres (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT metacritic_score (#PCDATA)>

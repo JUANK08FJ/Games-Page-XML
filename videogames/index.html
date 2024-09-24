@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>VIDEOGAMES</title>
+        <link rel="icon" type="image/png" href="img/gpu.png">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/manual.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- HEADER WITH LINKS -->
+            <nav id="cap" class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Twelfth navbar example">
+                <div class="container-fluid">
+                    <div class="navbar-collapse justify-content-md-center">
+                        <a href="index.html"><img src="img/controller.png" alt="navegation logo"></a>
+                        <div class="btn-group">
+                            <a href="distributors.html">
+                                <button type="button" class="btn">DISTRIBUTORS</button>
+                            </a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="distributors/capcom.html">CAPCOM</a></li>
+                                <li><a class="dropdown-item" href="distributors/ea.html">ELECTRONIC ARTS</a></li>
+                                <li><a class="dropdown-item" href="distributors/square_enix.html">SQUARE ENIX</a></li>
+                                <li><a class="dropdown-item" href="distributors/cd_projekt.html">CD PROJEKT</a></li>
+                                <li><a class="dropdown-item" href="distributors/warner_games.html">WARNER BROS. GAMES</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <a href="games.html">
+                                <button type="button" class="btn">GAMES</button>
+                            </a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="games/batman_city.html">BATMAN: ARKHAM CITY</a></li>
+                                <li><a class="dropdown-item" href="games/tomb_raider.html">TOMB RAIDER</a></li>
+                                <li><a class="dropdown-item" href="games/mirrors_edge.html">MIRROR'S EDGE</a></li>
+                                <li><a class="dropdown-item" href="games/cyberpunk.html">CYBERPUNK 2077</a></li>
+                                <li><a class="dropdown-item" href="games/resident_evil7.html">RESIDENT EVIL 7: BIOHAZARD</a></li>
+                                <li><a class="dropdown-item" href="games/fifa17.html">FIFA 17</a></li>
+                            </ul>
+                        </div>
+                        <a href="contact.html">
+                            <button type="button" class="btn">CONTACT</button>
+                        </a>
+                        <a href="about.html">
+                            <button type="button" class="btn">ABOUT ME</button>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- CAROUSEL WITH IMAGES -->
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                </div>
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item">
+                        <img src="img/distributor.png" alt="Distributor image">
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1>DISTRIBUTOR INFO</h1>
+                                <p><a class="btn btn-lg btn-primary" href="distributors.html">JUST CLICK</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/setup.png" alt="Games with setup">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>GAMES INFO</h1>
+                                <p><a class="btn btn-lg btn-primary" href="games.html">JUST CLICK</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- RECOMMENDS TEXT -->
+            <h1 id="recom">GAMES RECOMMENDATIONS</h1>
+
+            <!-- CARDS WITH GAMES LINKS -->
+            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                         style="background-image: url('img/batman_arkham_city_index.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Batman: Arkham City</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a href="games/batman_city.html"><img src="img/batman_logo.png" alt="Batman logo" class="rounded-circle border border-white"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                         style="background-image: url('img/mirrors_edge_index.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 ">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mirror's Edge</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a href="games/mirrors_edge.html"><img src="img/mirrors_logo.png" alt="Mirror's edge" class="rounded-circle border border-black"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>PAGE MADE BY JUAN C. FLOREZ - NOVEMBER 2023</p>
+
+            <!-- GO UP OF THE PAGE -->
+            <a href="#cap"><img src="img/go_up.png" id="up" class="bd-placeholder-img rounded-circle" alt="go_up"></a>
+        </footer>
+    </body>
+</html>

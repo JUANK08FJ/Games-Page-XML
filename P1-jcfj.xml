@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE games SYSTEM "P1-jcfj.dtd">
+<games>
+    <distributors>
+        <distributor dis_id="CPM" image_path="https://www.lavanguardia.com/files/image_948_465/uploads/2020/11/16/5fbb95998eac2.png">
+            <name>Capcom</name>
+            <foundation_day>11/06/1979</foundation_day>
+            <game_studios>13</game_studios>
+            <foundation_place>Chuo Ward, Osaka, Japan</foundation_place>
+        </distributor>
+        <distributor dis_id="CDPT" image_path="https://www.cdprojekt.com/en/wp-content/uploads-en/2020/03/cdp_004-1024x760-1024x760-640x475.jpg">
+            <name>CD PROJEKT</name>
+            <foundation_day>05/19/1994</foundation_day>
+            <game_studios>4</game_studios>
+            <foundation_place>Warsaw, Poland</foundation_place>
+        </distributor>
+        <distributor dis_id="SQEX" image_path="https://square-enix-games.com/home/public/selogo_onwhite.jpg">
+            <name>Square Enix</name>
+            <foundation_day>28/05/1983</foundation_day>
+            <game_studios>10</game_studios>
+            <foundation_place>Shibuya, Tokyo, Japan</foundation_place>
+        </distributor>
+        <distributor dis_id="EA" image_path="https://media.contentapi.ea.com/content/dam/eacom/images/2019/10/ea-featured-image-generic-brand-logo.png.adapt.crop191x100.1200w.png">
+            <name>Electronic Arts</name>
+            <foundation_day>28/05/1982</foundation_day>
+            <game_studios>27</game_studios>
+            <foundation_place>San Mateo, California, USA</foundation_place>
+        </distributor>
+        <distributor dis_id="WBG" image_path="https://www.giantbomb.com/a/uploads/scale_small/0/1992/3328681-screenshot2021-11-18at10.22.32am.png">
+            <name>Warner Bros. Games</name>
+            <foundation_day>14/01/2004</foundation_day>
+            <game_studios>11</game_studios>
+            <foundation_place>Burbank, California, USA</foundation_place>
+        </distributor>
+    </distributors>
+    <videogames>
+        <videogame distributor_reference="CPM" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/wii_24/SI_Wii_Okami_image1600w.jpg" youtube_trailer="https://youtu.be/p0xkFhola3c" PEGI="12">
+            <name>Okami</name>
+            <genres>Action-Adventure - Artistic and Visual Novel - Puzzle</genres>
+            <release_date>20/04/2006</release_date>
+            <game_studio>Clover Studio - Ready at Dawn - HexaDrive</game_studio>
+            <metacritic_score>92</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="SQEX" image_path="https://assets-prd.ignimgs.com/2021/12/20/ffx-art-1640032077055.jpg" youtube_trailer="https://youtu.be/riNzVUJumM8" PEGI="12">
+            <name>Final Fantasy X</name>
+            <genres>Japanese Role-Playing Game - Turn-Based Strategy - Fantasy Romance</genres>
+            <release_date>19/07/2001</release_date>
+            <game_studio>Squaresoft</game_studio>
+            <metacritic_score>91</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="WBG" image_path="https://pivigames.blog/wp-content/uploads/2017/05/fear_2_project_origin_hero.jpg" youtube_trailer="https://youtu.be/bdLv5VGPzRY" PEGI="18">
+            <name>F.E.A.R. 2: Project Origin</name>
+            <genres>Horror - First-Person Shooter - Science Fiction</genres>
+            <release_date>13/02/2009</release_date>
+            <game_studio>Monolith Productions</game_studio>
+            <metacritic_score>78</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://www.gamersegames.com.br/wp-content/uploads/2020/06/NFS-Underground.jpg" youtube_trailer="https://youtu.be/WWiTSTnfwv0" PEGI="3">
+            <name>Need for Speed: Underground</name>
+            <genres>Street Racing - Sports Car Simulation - Customization</genres>
+            <release_date>17/11/2003</release_date>
+            <game_studio>EA Black Box - Pocketeers - Global VR</game_studio>
+            <metacritic_score>86</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://i.blogs.es/cf05a5/maxresdefault/1366_2000.jpeg" youtube_trailer="https://youtu.be/t9u1zMCos8w" PEGI="7">
+            <name>The Sims 2</name>
+            <genres>Life Simulation - Creativity - Social Simulation</genres>
+            <release_date>14/09/2004</release_date>
+            <game_studio>Maxis - Griptonite Games</game_studio>
+            <metacritic_score>88</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://www.well-played.com.au/wp-content/uploads/2023/01/Dead-Space-Header.jpg" youtube_trailer="https://youtu.be/S7VvKGlVZu8" PEGI="18">
+            <name>Dead Space</name>
+            <genres>Survival Horror - Third-Person Shooter - Sci-Fi</genres>
+            <release_date>13/10/2008</release_date>
+            <game_studio>EA Redwood Shores</game_studio>
+            <metacritic_score>89</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CPM" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/H2x1_CharacterHub_AceAttorney.jpg" youtube_trailer="https://youtu.be/XEH0vH5QUyk" PEGI="7">
+            <name>Phoenix Wright: Ace Attorney</name>
+            <genres>Visual Novel - Legal Drama - Comedy</genres>
+            <release_date>11/10/2001</release_date>
+            <game_studio>Capcom</game_studio>
+            <metacritic_score>86</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="SQEX" image_path="https://locosxlosjuegos.com/wp-content/uploads/2019/01/Portadas-KH-2.png" youtube_trailer="https://youtu.be/ALTCu2x9i7I" PEGI="12">
+            <name>Kingdom Hearts II</name>
+            <genres>Fantasy - Action - Adventure</genres>
+            <release_date>22/12/2005</release_date>
+            <game_studio>Square Enix</game_studio>
+            <metacritic_score>89</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://gepig.com/game_cover_460w/883.jpg" youtube_trailer="https://youtu.be/Gmcg6F4BeUE" PEGI="16">
+            <name>Battlefield: Bad Company 2</name>
+            <genres>Military/War - Tactical Shooter - Multiplayer</genres>
+            <release_date>02/03/2010</release_date>
+            <game_studio>Digital Illusions CE</game_studio>
+            <metacritic_score>86</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="SQEX" image_path="https://www.hrypc.cz/foto/images/460x215/14/13070_deus-ex-human-revolution.jpg" youtube_trailer="https://youtu.be/e-DwoCkpBFA" PEGI="18">
+            <name>Deus Ex: Human Revolution</name>
+            <genres>Hacking and Puzzle Solving - Interactive Storytelling - Conspiracy Thriller</genres>
+            <release_date>23/08/2011</release_date>
+            <game_studio>Eidos-Montréal</game_studio>
+            <metacritic_score>87</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CPM" image_path="https://gpstatic.com/acache/30/83/1/fr/t620x300-edc5f700d41b0726406d1e52ad14299d.jpg" youtube_trailer="https://youtu.be/e6Ahoe6ovQ4" PEGI="16">
+            <name>Lost Planet: Extreme Condition</name>
+            <genres>Action - Shooter - Adventure</genres>
+            <release_date>21/12/2006</release_date>
+            <game_studio>Campcom - K2 LLC</game_studio>
+            <metacritic_score>73</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CPM" image_path="https://i.ytimg.com/vi/i2Oz-RqJWys/maxresdefault.jpg" youtube_trailer="https://youtu.be/-MarHk64UR0" PEGI="12">
+            <name>Marvel vs. Capcom 2: New Age of Heroes</name>
+            <genres>2D Fighting - Crossover - Arcade</genres>
+            <release_date>24/02/2000</release_date>
+            <game_studio>Capcom - Backbone Entertainment</game_studio>
+            <metacritic_score>82.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CPM" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DevilMayCry_image1600w.jpg" youtube_trailer="https://youtu.be/rfMte3Q0pEM" PEGI="16">
+            <name>Devil May Cry</name>
+            <genres>Action-Adventure - Hack and Slash - Horror</genres>
+            <release_date>23/08/2001</release_date>
+            <game_studio>Team Little Devils</game_studio>
+            <metacritic_score>90</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="WBG" image_path="https://gepig.com/game_cover_460w/2022.jpg" youtube_trailer="https://youtu.be/De6u2xrJVLw" PEGI="18">
+            <name>Mortal Kombat (2011)</name>
+            <genres>Gore - Fighting - Violence</genres>
+            <release_date>19/04/2011</release_date>
+            <game_studio>NetherRealm Studios</game_studio>
+            <metacritic_score>85</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="WBG" image_path="https://d1w82usnq70pt2.cloudfront.net/wp-content/uploads/2020/05/Mad_Max_Review.jpg" youtube_trailer="https://youtu.be/FqLbCUGiDpA" PEGI="18">
+            <name>Mad Max</name>
+            <genres>Vehicular Combat - Open World - Survival</genres>
+            <release_date>01/09/2015</release_date>
+            <game_studio>Avalanche Studios</game_studio>
+            <metacritic_score>74</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_ds_22/SI_NDS_FIFA11_enGB_image1600w.jpg" youtube_trailer="https://youtu.be/P93vY5ZVJ7w" PEGI="3">
+            <name>FIFA 11</name>
+            <genres>Simulation - Career Mode - Online Multiplayer</genres>
+            <release_date>28/09/2010</release_date>
+            <game_studio>EA Canada - Exient Entertainment - HB Studios</game_studio>
+            <metacritic_score>81.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="SQEX" image_path="https://i.blogs.es/cdbd43/tomb-raider/1366_2000.jpg" youtube_trailer="https://youtu.be/XsWojNNqFTg" PEGI="18">
+            <name>Tomb Raider (2013)</name>
+            <genres>Stealth - Puzzle-solving - Exploration</genres>
+            <release_date>05/03/2013</release_date>
+            <game_studio>Crystal Dynamics - Eidos Montréal - Nixxes Software BV</game_studio>
+            <metacritic_score>85.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CDPT" image_path="https://assets2.razerzone.com/images/pnx.assets/15c3645f88bc087658dbd4b1be683d7b/razer-viper-ultimate-cyberpunk-2077-hero-mobile.jpg" youtube_trailer="https://youtu.be/LembwKDo1Dk&amp;t=2s" PEGI="18">
+            <name>Cyberpunk 2077</name>
+            <genres>Role-Playing Game - Open World - Dystopian</genres>
+            <release_date>10/12/2020</release_date>
+            <game_studio>CD Projekt Red</game_studio>
+            <metacritic_score>78.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="SQEX" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_NierAutomataTheEndOfYorhaEdition.jpg" youtube_trailer="https://youtu.be/StXRi5zPPjk" PEGI="18">
+            <name>NieR: Automata</name>
+            <genres>Action Role-Playing - Hack and Slash - Bullet Hell</genres>
+            <release_date>23/02/2017</release_date>
+            <game_studio>PlatinumGames</game_studio>
+            <metacritic_score>88.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CPM" image_path="https://www.noctre.com/img/product/logo/resident-evil-4-ultimate-hd-edition-00a4a7b964.jpg" youtube_trailer="https://youtu.be/1KTghW30ZuY" PEGI="18">
+            <name>Resident Evil 4 (2005)</name>
+            <genres>Survival Horror - Third-person shooting - Action</genres>
+            <release_date>11/01/2005</release_date>
+            <game_studio>Capcom Production Studio 4</game_studio>
+            <metacritic_score>93.5</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="WBG" image_path="https://i.ytimg.com/vi/KUgtLrbafwk/maxresdefault.jpg" youtube_trailer="https://youtu.be/MlX--IPxTRU" PEGI="16">
+            <name>Batman: Arkham City</name>
+            <genres>Superhero - Action-Adventure - Beat 'em Up</genres>
+            <release_date>18/10/2011</release_date>
+            <game_studio>Rocksteady Studios</game_studio>
+            <metacritic_score>91</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://media.wired.com/photos/59345a8c09f4ce09698ed9b0/master/pass/pvzstreet_1024x768.jpg" youtube_trailer="https://youtu.be/CHAbHz8iYHc" PEGI="12">
+            <name>Plants vs. Zombies</name>
+            <genres>Tower Defense - Strategy - Casual</genres>
+            <release_date>05/05/2009</release_date>
+            <game_studio>PopCap Games</game_studio>
+            <metacritic_score>87</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="CDPT" image_path="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheWitcher3WildHuntCompleteEdition_enGB_image1600w.jpg" youtube_trailer="https://youtu.be/XHrskkHf958" PEGI="18">
+            <name>The Witcher 3: Wild Hunt</name>
+            <genres>Open World - Drama - Adventure</genres>
+            <release_date>19/05/2015</release_date>
+            <game_studio>CD Projekt RED</game_studio>
+            <metacritic_score>92</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="WBG" image_path="https://image.api.playstation.com/vulcan/ap/rnd/202112/2223/MPrbcZ0Y2VVExG7jXxIJv8fy.jpg" youtube_trailer="https://youtu.be/2yTr5oS99_c" PEGI="7">
+            <name>Lego Star Wars: The Skywalker Saga</name>
+            <genres>Platformer - Space Exploration - Puzzle</genres>
+            <release_date>05/04/2022</release_date>
+            <game_studio>Traveller's Tales</game_studio>
+            <metacritic_score>81</metacritic_score>
+        </videogame>
+        <videogame distributor_reference="EA" image_path="https://theamusetech.com/wp-content/uploads/2022/08/Mirrors-Edge.jpg" youtube_trailer="https://youtu.be/2N1TJP1cxmo" PEGI="12">
+            <name>Mirror's Edge</name>
+            <genres>Parkour - Platformer - Dystopian</genres>
+            <release_date>11/11/2008</release_date>
+            <game_studio>DICE</game_studio>
+            <metacritic_score>79</metacritic_score>
+        </videogame>
+    </videogames>
+</games>

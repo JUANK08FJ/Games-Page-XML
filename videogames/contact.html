@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CONTACT</title>
+        <link rel="icon" type="image/png" href="img/gpu.png">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/manual.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- HEADER WITH LINKS -->
+            <nav id="cap" class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Twelfth navbar example">
+                <div class="container-fluid">
+                    <div class="navbar-collapse justify-content-md-center">
+                        <a href="index.html"><img src="img/controller.png" alt="navegation logo"></a>
+                        <div class="btn-group">
+                            <a href="distributors.html">
+                                <button type="button" class="btn">DISTRIBUTORS</button>
+                            </a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="distributors/capcom.html">CAPCOM</a></li>
+                                <li><a class="dropdown-item" href="distributors/ea.html">ELECTRONIC ARTS</a></li>
+                                <li><a class="dropdown-item" href="distributors/square_enix.html">SQUARE ENIX</a></li>
+                                <li><a class="dropdown-item" href="distributors/cd_projekt.html">CD PROJEKT</a></li>
+                                <li><a class="dropdown-item" href="distributors/warner_games.html">WARNER BROS. GAMES</a></li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <a href="games.html">
+                                <button type="button" class="btn">GAMES</button>
+                            </a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="games/batman_city.html">BATMAN: ARKHAM CITY</a></li>
+                                <li><a class="dropdown-item" href="games/tomb_raider.html">TOMB RAIDER</a></li>
+                                <li><a class="dropdown-item" href="games/mirrors_edge.html">MIRROR'S EDGE</a></li>
+                                <li><a class="dropdown-item" href="games/cyberpunk.html">CYBERPUNK 2077</a></li>
+                                <li><a class="dropdown-item" href="games/resident_evil7.html">RESIDENT EVIL 7: BIOHAZARD</a></li>
+                                <li><a class="dropdown-item" href="games/fifa17.html">FIFA 17</a></li>
+                            </ul>
+                        </div>
+                        <a href="contact.html">
+                            <button type="button" class="btn">CONTACT</button>
+                        </a>
+                        <a href="about.html">
+                            <button type="button" class="btn">ABOUT ME</button>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="mb-4">CONTACT WITH US</h1>
+
+            <!-- FORM -->
+            <form action='index.html' method='POST'>
+                <div class="mb-3">
+                    <label for="cname" class="form-label">Name and Surname</label>
+                    <input type="text" class="form-control" id="cname" placeholder="Mack Floyd Noble" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="text" class="form-control" id="phone" placeholder="645 76 98 34" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Comments</label>
+                    <textarea class="form-control" id="comments" rows="3" placeholder="Put here a comment if you want it"></textarea>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Submit"/>
+            </form>
+        </main>
+
+        <footer>
+            <p>PAGE MADE BY JUAN C. FLOREZ - NOVEMBER 2023</p>
+
+            <!-- GO UP OF THE PAGE -->
+            <a href="#cap"><img src="img/go_up.png" id="up" class="bd-placeholder-img rounded-circle" alt="go_up"></a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/* GENERAL */
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+body {
+    background-color: #8d6f4c;
+}
+#abo h1 * {
+    color: magenta;
+}
+#abo h1 {
+    color: #0dcaf0;
+    margin: 133px auto;
+    text-align: center;
+}
+
+
+/* GENERAL -- HEADER */
+header nav.navbar {
+    margin: 20px 0;
+    padding-block: 0;
+    background-color: #382c1e!important;
+}
+header, main, footer {
+    margin: 0 150px;
+}
+header nav div div a img {
+    width: 50px;
+    margin-right: 15px;
+}
+header nav div.container-fluid ul.dropdown-menu {
+    background-color: #e2b279;
+}
+header nav div.container-fluid ul.dropdown-menu {
+    padding: 0!important;
+}
+header nav div.container-fluid ul.dropdown-menu li * {
+    color: #382c1e;
+}
+header nav div.container-fluid div.justify-content-md-center *{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+header nav div.container-fluid div.justify-content-md-center button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+}
+header nav div.container-fluid div.justify-content-md-center button:hover {
+    background-color: #110d09;
+}
+
+
+/* GENERAL -- MAIN */
+#myCarousel div.carousel-item img, #secondary-pages div.row.p-md-4.mb-4 div.col img, #secondary-pages div.featurette div.col-md-6 img {
+    width: 100%;
+}
+#secondary-pages main div.row {
+    margin: 40px 0;
+    color: white;
+}
+div.row div.col div.d-flex ul.list-unstyled a img, div.flex-lg-row-reverse div.col-lg-6 a img{
+    width: 64px;
+    height: 64px;
+    background-color: black;
+    border: 0!important;
+}
+#WBIE {
+    background-color: #0541a8;
+}
+#CDPT {
+    background-color: #db0e15;
+}
+#CPM {
+    background-color: #ffcb06;
+    color: #00529c;
+}
+#EA {
+    background-color: #fc2442;
+}
+#SQEX {
+    background-color: black;
+    color: #e50714;
+}
+main div.px-4.my-5.border-bottom img {
+    width: 900px;
+}
+
+
+/* GENERAL -- FOOTER */
+img#up {
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    padding: 15px 10px;
+}
+footer p {
+    text-align: center;
+    margin: 20px 150px;
+    color: white;
+}
+
+
+/* INDEX CSS -- MAIN */
+#myCarousel div.carousel-inner div.carousel-item img {
+    opacity: 14%;
+}
+h1#recom {
+    margin: 40px 0;
+    color: white;
+}
+div.row-cols-lg-2 {
+    padding-top: 10px!important;
+    padding-bottom: 30px!important;
+}
+div.row div.col div.card.text-bg-dark {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.row div.col div.d-flex {
+    color: black;
+}
+
+
+/* GAMES CSS -- MAIN */
+#secondary-pages {
+    background-color: #4E5754;
+}
+main div.row.g-0.rounded.position-relative {
+    background-color: #8673A1;
+}
+main div.row.g-0 div.col.p-4 a {
+    color: #403A3A;
+}
+main div.row.g-0 div.col-auto iframe {
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+
+/* DISTRIBUTORS CSS -- MAIN */
+#secondary-pages main div.row div.col-lg-4, #secondary-pages main div.row div.col-lg-6 {
+    padding: 0 30px;
+}
+#secondary-pages main div.row div.col-lg-4 div img, #secondary-pages main div.row div.col-lg-6 div img {
+    margin-top: 30px;
+    width: 140px;
+    height: 140px;
+}
+#secondary-pages main div.row div.col-lg-4 div *, #secondary-pages main div.row div.col-lg-6 div * {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+#secondary-pages main div.row div.col-lg-4 div, #secondary-pages main div.row div.col-lg-6 div {
+    margin-top: 30px;
+    padding: 15px 0;
+    border-radius: 2%;
+}
+#secondary-pages main div#SQEX a {
+    background-color: white;
+    color: black;
+}
+#secondary-pages main div#EA a.btn {
+    background-color: white;
+    color: #fc2442;
+}
+#secondary-pages main div#CPM a {
+    background-color: #00529c;
+}
+#secondary-pages main div#CDPT a {
+    background-color: black;
+}
+#secondary-pages main div#WBIE a {
+    background-color: white;
+    color: #001e69;
+}
+
+
+/* EVERY SINGLE GAME CSS -- BODY */
+#pegi {
+    width: 55px;
+}
+tr.xbox *, tr.pc *, tr.play *, div.flex-lg-row-reverse.g-5.py-5 div.col-lg-6 {
+    color: white;
+}
+tr.pc * {
+    background-color: black;
+}
+tr.play * {
+    background-color: #091155;
+}
+tr.xbox * {
+    background-color: #007A20;
+}
+th, td {
+    padding: 25px!important;
+    border: 0;
+    text-align: center;
+}
+#WBIE #cap, #WBIE #cap ul.dropdown-menu, #EA #cap, #EA #cap ul.dropdown-menu, #CDPT #cap, #CDPT #cap ul.dropdown-menu {
+    background-color: white!important;
+}
+
+
+/* GAME CSS -- WARNER BROS. GAMES */
+#WBIE #cap button {
+    color: #001e69;
+}
+#WBIE #cap div.navbar-collapse.justify-content-md-center button.btn:hover, #WBIE #cap ul a:hover {
+    background-color: #b1cde5;
+}
+#WBIE #cap ul.dropdown-menu li a {
+    color: #091155;
+}
+
+
+/* DISTRIBUTOR CSS -- WARNER BROS. GAMES */
+#WBIE div.px-4.my-5 h1.display-4, #WBIE div.px-4.my-5 p.lead.mb-4, #WBIE div.px-4.my-5 div.bd-example dl dd {
+    color: white!important;
+}
+#WBIE div.px-4.my-5 div.bd-example dl dt a {
+    color: #b1cde5;
+}
+#WBIE div.px-4.my-5 div.bd-example dl dt a:hover {
+    color: white!important;
+}
+
+
+/* GAME CSS -- EA */
+#EA #cap button {
+    color: #fc2442;
+}
+#EA #cap div.navbar-collapse.justify-content-md-center button.btn:hover, #EA #cap ul a:hover {
+    background-color: #fed3d9;
+}
+#EA #cap ul.dropdown-menu li a {
+    color: #fc2442;
+}
+
+
+/* DISTRIBUTOR CSS -- EA */
+#EA div.px-4.my-5 h1.display-4, #EA div.px-4.my-5 p.lead.mb-4, #EA div.px-4.my-5 div.bd-example dl dd {
+    color: white!important;
+}
+#EA div.px-4.my-5 div.bd-example dl dt a {
+    color: #4c0b14;
+}
+#EA div.px-4.my-5 div.bd-example dl dt a:hover {
+    color: #fe92a1!important;
+}
+
+
+/* GAME CSS -- CAMCOM */
+#CPM div.flex-lg-row-reverse.g-5.py-5 div.col-lg-6, #CPM footer *, #CPM #cap {
+    color: #00529c;
+}
+#CPM #cap button, #CPM #cap ul.dropdown-menu li a {
+    color: #ffcb06;
+}
+#CPM #cap, #CPM #cap ul.dropdown-menu {
+    background-color: #00529c!important;
+}
+#CPM #cap div.navbar-collapse.justify-content-md-center button.btn:hover, #CPM #cap ul a:hover {
+    background-color: #00315e;
+}
+
+
+/* DISTRIBUTOR CSS -- CAPCOM */
+#CPM div.px-4.my-5 h1.display-4, #CPM div.px-4.my-5 div.bd-example dl dt a {
+    color: #00529c!important;
+}
+#CPM div.px-4.my-5 div.bd-example dl dt a:hover {
+    color: #00315e!important;
+}
+
+
+/* GAME CSS -- SQUARE ENIX */
+#SQEX #cap button, #SQEX #cap ul.dropdown-menu li a {
+    color: white;
+}
+#SQEX #cap, #SQEX #cap ul.dropdown-menu {
+    background-color: #e50714!important;
+}
+#SQEX #cap div.navbar-collapse.justify-content-md-center button.btn:hover, #SQEX #cap ul a:hover {
+    background-color: #73040a;
+}
+
+
+/* DISTRIBUTOR CSS -- SQUARE ENIX */
+#SQEX div.px-4.my-5 h1.display-4, #SQEX div.px-4.my-5 p.lead.mb-4, #SQEX div.px-4.my-5 div.bd-example dl dd {
+    color: white!important;
+}
+#SQEX div.px-4.my-5 div.bd-example dl dt a {
+    color: #e50714;
+}
+#SQEX div.px-4.my-5 div.bd-example dl dt a:hover {
+    color: #f2838a!important;
+}
+
+
+/* GAME CSS -- CD PROJEKT */
+#CDPT #cap button {
+    color: black;
+}
+#CDPT #cap div.navbar-collapse.justify-content-md-center button.btn:hover, #CDPT #cap ul a:hover {
+    background-color: #ed878a;
+}
+#CDPT #cap ul.dropdown-menu li a {
+    color: black;
+}
+
+
+/* DISTRIBUTOR CSS -- CD PROJEKT */
+#CDPT div.px-4.my-5 h1.display-4, #CDPT div.px-4.my-5 p.lead.mb-4, #CDPT div.px-4.my-5 div.bd-example dl dd {
+    color: white!important;
+}
+#CDPT div.px-4.my-5 div.bd-example dl dt a {
+    color: black;
+}
+#CDPT div.px-4.my-5 div.bd-example dl dt a:hover {
+    color: #ed878a!important;
+}
